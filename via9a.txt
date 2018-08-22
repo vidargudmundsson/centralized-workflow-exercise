@@ -1,0 +1,4 @@
+
+a command I like: git branch
+
+if it wasnt for git branch I would always be confused at what branch I actually am working.
