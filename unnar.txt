@@ -1,1 +1,3 @@
-git rebase -i HEAD~n #to squash last n commits interactively
+git rebase -i HEAD~n 
+
+to squash last n commits interactively
