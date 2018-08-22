@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -s -N https://api.coinmarketcap.com/v2/ticker/1/ | sed 's/,//' | awk 'BEGIN { n="\033[0m" }; /percent_change_24h/ { if ( $2 > 0 ) { chg="\033[01;32m" } else { chg="\033[1;31m" } } ;/price/ { price=$2 }; END { print chg, price, n }'
