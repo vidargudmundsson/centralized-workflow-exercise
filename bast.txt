@@ -1,0 +1,5 @@
+a command I like: git commit -v
+
+when it opens the git commit message editor,
+it shows me the difference that I am about to commit
+so that I do not forget some variable names, etc.
